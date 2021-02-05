@@ -1,10 +1,17 @@
+import { Route, Router } from 'react-router-dom';
 import './App.css';
-import View from './view';
-
+import Card from './components/Card';
+import Donation from './components/Donation';
+import Transfer from './components/Transfer';
 
 function App() {
   return (
-    <View />
+    <Donation>
+      <Router>
+        <Route exact path='/' component={Card} />
+        <Route exact path='/Transfer' componet={Transfer} />
+      </Router>
+    </Donation>
   );
 }
 
