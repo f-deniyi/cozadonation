@@ -1,17 +1,22 @@
-import { Route, Router } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Card from './components/Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CardOption from './components/CardOption';
 import Donation from './components/Donation';
 import Transfer from './components/Transfer';
 
+
 function App() {
   return (
-    <Donation>
-      <Router>
-        <Route exact path='/' component={Card} />
-        <Route exact path='/Transfer' componet={Transfer} />
-      </Router>
-    </Donation>
+    <BrowserRouter>
+      <Donation>
+        <Switch>
+          <Route exact path='/' component={CardOption}/>
+          <Route exact path='/Transfer' component={Transfer} />
+        </Switch>
+      </Donation>
+    </BrowserRouter>
   );
 }
 
