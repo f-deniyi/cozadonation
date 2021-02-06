@@ -81,7 +81,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*426*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleAccessAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleAccessAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(accessAmount)} href={`tel:*426*000*306*${accessAmount}#`}>
@@ -98,7 +98,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*737*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleGtbAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleGtbAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(gtbAmount)} href={`tel:*737*000*306*${gtbAmount}#`}>
@@ -119,7 +119,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*996*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleZenithAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleZenithAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(zenithAmount)} href={`tel:*996*000*306*${zenithAmount}#`}>
@@ -137,7 +137,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                     <p className='mb-0 text-center'>*894*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleFirstBankAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleFirstBankAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(firstBankAmount)} href={`tel:*894*000*306*${firstBankAmount}#`}>
@@ -155,7 +155,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*919*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleUBAAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleUBAAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(UBAAmount)} href={`tel:*919*000*306*${UBAAmount}#`}>
@@ -173,7 +173,7 @@ const Transfer = () => {
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*326*000*306*</p>
-                        <input className='rounded form-control w-100 px-2' onChange={handleEcobankAmount} type='text' placeholder='Input amount' />
+                        <input className='rounded form-control w-100 px-2' onChange={handleEcobankAmount} type='number' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
                         <a className='btn font-weight-bold btn-warning' onClick={() => console.log(EcobankAmount)} href={`tel:*326*000*306*${EcobankAmount}#`}>
