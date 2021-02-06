@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import flutterwafe from '../assets/flutterwafe.png'
+import access from '../assets/access.png'
+import gtb from '../assets/gtb.png'
+import zenith from '../assets/zenith.png'
+import firstbank from '../assets/firstbank.png'
+import uba from '../assets/uba.png'
+import ecobank from '../assets/ecobank.png'
+
 const Transfer = () => {
     const [clicked, updateClicked] = useState(false);
     const copyAccountNumber = () => {
         updateClicked(!clicked);
         navigator.clipboard.writeText(1013275906)
     }
+
+
     const [gtbAmount, updategtbAmount] = useState('');
     const handleGtbAmount = (e) => {
         console.log(e.target.value);
@@ -49,7 +57,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={zenith} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-4 text-center'>
                         <p className='mb-0'>Naira Account</p>
@@ -69,7 +77,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={access} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*426*000*306*</p>
@@ -86,7 +94,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={gtb} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*737*000*306*</p>
@@ -107,7 +115,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={zenith} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*996*000*306*</p>
@@ -125,9 +133,10 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={firstbank} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
+                    <p className='mb-0 text-center'>*894*000*306*</p>
                         <input className='rounded form-control w-100 px-2' onChange={handleFirstBankAmount} type='text' placeholder='Input amount' />
                     </div>
                     <div className='col-3'>
@@ -142,7 +151,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={uba} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*919*000*306*</p>
@@ -160,7 +169,7 @@ const Transfer = () => {
             <div className='transfer-container mb-3 p-2'>
                 <div className='row justify-content-around align-items-center'>
                     <div className='col-2'>
-                        <img src={flutterwafe} className='img-fluid' alt='zenith-bank' />
+                        <img src={ecobank} className='img-fluid' alt='zenith-bank' />
                     </div>
                     <div className='col-6 mb-2 '>
                         <p className='mb-0 text-center'>*326*000*306*</p>
