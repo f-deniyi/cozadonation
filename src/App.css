@@ -10,18 +10,24 @@ body{
   color:#efbc2f !important;
   font-weight:bold;
 }
-.activeLink:after {
+/* .activeLink:after {
   background-color: #efbc2f;
   content: "";
-  display: block;
-  height: 6px;
+  display:block;
+  height: 4px;
   position: relative;
-  width: 420%;
+  width: 500%;
+  margin-right:-80%;
   margin-left:-180%;
-  margin-right:-200%
-}
+} */
 .card-container{
   background-color: #2e0049;
+}
+.transfer-container{
+  background-color: #2e0049 !important;
+}
+nav{
+  border-bottom:solid 3px  #2e0049;
 }
 /* nav:after{
   background-color: red;
