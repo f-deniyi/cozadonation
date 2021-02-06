@@ -22,7 +22,7 @@ const CardOption = () => {
                     <p className=''>Flutterwave</p>
                 </div>
                 <div className='col-4'>
-                    <div className='rounded card-container rounded text-center p-2 ' onClick={() => redirectUrl('paypal.me/COZAGLOBAL')}>
+                    <div className='rounded card-container rounded text-center p-2 ' onClick={() => redirectUrl('https://paypal.me/COZAGLOBAL')}>
                         <img src={paypal} className='img-fluid ' alt='paypal-logo' />
                     </div>
                     <p>Paypal</p>
