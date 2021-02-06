@@ -13,7 +13,7 @@ function App() {
       <Donation>
         <Switch>
           <Route exact path='/' component={CardOption}/>
-          <Route exact path='/Transfer' component={Transfer} />
+          <Route exact path='/transfer' component={Transfer} />
         </Switch>
       </Donation>
     </BrowserRouter>
