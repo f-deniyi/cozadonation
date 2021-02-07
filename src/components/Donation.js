@@ -9,9 +9,9 @@ const Donation = (props) => {
             <div className='text-center pt-5'>
                 <h5>Give</h5>
             </div>
-            <nav className='d-flex justify-content-around py-3 px-4' style={{borderColor:' #2e0049'}}>
-                <NavLink exact to='/' style={navStyle} activeClassName='activeLink' className='text-center '>Card</NavLink>
-                <NavLink exact to='/Transfer' style={navStyle} activeClassName='activeLink' className='text-center'>Transfer</NavLink>
+            <nav className='d-flex justify-content-around  px-4' style={{borderColor:' #2e0049'}}>
+                <NavLink exact to='/' style={navStyle} activeClassName='activeLink' className=' card-option text-center '>Card</NavLink>
+                <NavLink exact to='/Transfer' style={navStyle} activeClassName='activeLink' className='transfer text-center'>Transfer</NavLink>
             </nav>
             <div className='container'>
                 {children}

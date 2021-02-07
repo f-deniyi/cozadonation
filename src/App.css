@@ -10,16 +10,23 @@ body{
   color:#efbc2f !important;
   font-weight:bold;
 }
-/* .activeLink:after {
+.card-option.activeLink:after, .transfer.activeLink:after{
   background-color: #efbc2f;
   content: "";
   display:block;
   height: 4px;
   position: relative;
-  width: 500%;
-  margin-right:-80%;
-  margin-left:-180%;
-} */
+}
+.card-option.activeLink:after {
+  width: 450%;
+  margin-left:-200%;
+}
+
+.transfer.activeLink:after {
+  width: 400%;
+  margin-left:-58%;
+}
+
 .card-container{
   background-color: #2e0049;
 }
