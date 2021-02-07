@@ -27,30 +27,9 @@ body{
   margin-left:-58%;
 }
 
-.card-container{
-  background-color: #2e0049;
-}
-.transfer-container{
+.transfer-container,.card-container{
   background-color: #2e0049 !important;
 }
 nav{
   border-bottom:solid 3px  #2e0049;
-}
-/* nav:after{
-  background-color: red;
-  content: "";
-  display: block;
-  height: 6px;
-  position: relative;
-  width: 100%;
-} */
-
-
-@media (max-width:760px){
-.donate .w-50{
-   width:unset !important;
-  }
-.donate .w-sm-75{
-    width:75% !important;
-  }
 }
