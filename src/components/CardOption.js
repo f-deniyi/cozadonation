@@ -28,7 +28,7 @@ const CardOption = () => {
                     <p>Paypal</p>
                 </div>
                 <div className='col-4'>
-                    <div className='rounded card-container  rounded text-center p-2' onClick={() => redirectUrl('https://cash.app/$GiveCoza')}>
+                    <div className='rounded card-container  rounded text-center p-3' onClick={() => redirectUrl('https://cash.app/$GiveCoza')}>
                         <img src={cashapp} className='img-fluid' alt='cashapp-logo' />
                     </div>
                     <p>Cashapp</p>
